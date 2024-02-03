@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.forms{
+    margin:0;
+    padding: 0;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wrapper input{
+    min-width: 400px;
+    border-radius: 9px 0 0 9px ;
+    height: 40px;
+    padding: 1rem;
+}
+.forms button{
+    height: 40px;
+    width: 50px;
+    border-radius:0 9px  9px 0;
+    margin-left: 0.2rem;
+   border: none;
+   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+   cursor: pointer;
+}
+.box
+{
+    padding: 1rem;
+    width: 455px;
+}
+.wrapper
+{
+    flex: 1;
+    margin: 3rem;
+}
+
+.wrappers input{
+    border-radius: 9px 9px 9px 9px;
+}

@@ -1,0 +1,34 @@
+.Content{
+    width:100vw;
+    min-height:53vh;
+    justify-content: center;
+    text-align: center;
+    padding:2rem 0 0 25rem;
+}
+.list{
+    display: flex; 
+    justify-content: space-between;
+    font-size: 3em;
+    margin:5px;
+    width: 60%;
+    height:10%;
+    background-color: #dfe4ea;
+}
+li input{
+    height: 60px; 
+    width: 60px;  
+    background-color: green;
+    padding-left:8px;
+}
+li button{
+    align-items:flex-end;
+    height: 60px; 
+    width: 60px;  
+    background-color: #b3c3d6;
+}
+#no_tems{
+    padding: 0px;
+    margin-left: -350px;
+    font-weight: 500;
+    font-size: 30px;
+}
